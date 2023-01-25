@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* @font-face {
+    font-family: 'Nunito';
+    src: url('static/');
+} */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn {
+    @apply bg-[#FFCD00] px-5 py-2 rounded-md
+}
+
+.grid_item5, .grid_item6 {
+    @apply flex w-full bg-white shadow-lg p-5 my-5 rounded-3xl text-black
+    lg:font-bold lg:my-10
+    hover:shadow-xl hover:cursor-pointer
+}
+.grid5, .grid6 {
+    @apply flex-row px-2 my-6 max-w-fit
+}
+
+.bigText {
+    @apply font-extrabold text-4xl leading-[50px] 
+    lg:text-[45px] lg:leading-[64px]
+}
+.smallText {
+    @apply text-[#aaa] leading-[36px] pt-6 font-semibold
+    lg:text-lg
+}
+.img7 {
+    @apply  m-auto w-24
+    lg:w-36
+}
+
+
+.nav_list_small {
+    @apply py-2 px-4 m-auto rounded-lg
+    hover:bg-[#a0e9b666]
+}
+
+.navBorder {
+    @apply border-b-[#ececec] border-b-2
+}
+
+.nav-btn {
+    @apply mt-3 px-4 rounded-lg py-[6px] font-light
+}
+.Nav-btn {
+    @apply rounded-lg px-[14px] py-2 mr-2 font-semibold text-[13px]
+}
+.nav_list {
+    @apply px-6 m-auto py-2 rounded-lg
+    hover:bg-[#a0e9b666]
+}
+
+.part1 {
+    @apply bg-cover bg-no-repeat h-[100vh] w-full flex pt-16 text-center justify-center
+    lg:justify-around
+}
+.store1 {
+    @apply w-32 mx-2
+    lg:w-44 lg:mx-4
+}
+
+.part2 {
+    @apply flex-row px-7 py-16
+    lg:px-40
+}
+.big2 {
+    @apply  font-extrabold text-3xl w-[90%]
+    lg:text-[45px] lg:leading-10 lg:mb-5
+
+}
+
+.part3 {
+    @apply flex-row px-6 py-20 bg-[#fffae6]
+    lg:flex lg:px-12 lg:py-16
+}
+.image3 {
+    @apply w-10 h-3
+    lg:w-20 lg:h-7
+}
+
+.part4 {
+    @apply bg-[#006159] text-white py-12 px-6
+    lg:flex lg:p-0
+}
+
+.part5 {
+    @apply bg-[#f2f6ff] py-20 px-6
+    lg:flex 
+}
+.gridimg_5 {
+    @apply mr-2
+}
+
+.part6 {
+    @apply py-20 px-6
+    lg:flex lg:px-10 lg:py-16
+    
+}
+
+.phone6 {
+    @apply w-[45%] self-center px-2
+    lg:w-[48%] lg:px-4
+} 
+
+.part7 {
+    @apply bg-[#d4f1ec] flex-row text-center py-16
+    lg:py-[120px] lg:flex
+}
+.img7 {
+    @apply  m-auto w-24
+    lg:w-36
+}
+.grid_item7 {
+    @apply px-8 
+    lg:w-1/3 lg:px-16
+}
+.grid_7_center {
+    @apply my-20
+    lg:border-x-[3px] lg:border-x-[#BED8D5] lg:my-0
+}
+.big7 {
+    @apply font-bold text-2xl pt-4 leading-[32px]
+    lg:text-[30px] lg:pt-6 lg:px-3
+} 
+.small7 {
+    @apply text-[#aaa] leading-[30px] pt-6
+}
+
+.part9 {
+    @apply bg-[#191c29] text-white px-6 pt-14 pb-0
+    lg:flex lg:px-0 lg:py-24
+}
+
+.part10 {
+    @apply mt-20 py-12 flex-row items-center
+    md:px-6 md:mt-12
+}
+.smallie {
+    @apply border-b-[4px] border-x-[2px] rounded-2xl  pb-8 my-6
+    hover:shadow-md hover:cursor-pointer m-auto md:w-1/3 md:self-center mx-6
+}
+.list_10 {
+    @apply flex items-center w-fit px-4
+}
+.small_10header, .small_10text {
+    @apply px-4
+}
+.small_10header {
+    @apply text-[#006159] text-xl mb-6 font-bold
+}
+.small_10text {
+    @apply text-[13px] leading-[30px]
+}
+.li_10 {
+    @apply text-xs px-1
+}
+.seperator {
+    @apply  text-5xl justify-start rotate-90 m-auto pb-8
+}
+.small_10img {
+    @apply h-40 w-full rounded-t-2xl
+}
+
+.part11 {
+    @apply px-5 py-12
+    lg:flex
+}
+
+.part12 {
+    @apply  px-5 bg-[#f4f5f8] py-12
+    lg:flex lg:px-16 lg:py-16
+}
+
+.part13 {
+    @apply px-5 bg-[#f4f5f8] py-12
+    lg:py-0 lg:flex lg:px-0 lg:pt-8
+}
+
+.part14 {
+    @apply px-5 py-6
+    lg:py-12
+}
+.grid_14 {
+    @apply px-5 py-4 my-10 rounded-3xl border-b-4 border-r-2 border-l-2 border-t-0
+    lg:mx-4
+}
+.grid14_big {
+    @apply text-[#006159] font-bold
+    lg:text-xl
+}
+.grid14_small {
+    @apply text-sm py-5 leading-[27px]
+}
+.img14 {
+    @apply mb-3
+}
+
+.part15 {
+    @apply bg-[#F9FAFC] px-5 py-6
+    lg:py-12 lg:px-20
+}
+
+.part16 {
+    @apply bg-[#006156] text-white px-5 py-6
+    lg:px-7
+}
+.img16 {
+    @apply w-[30%] justify-self-center self-center
+    lg:w-[60%]
+}
+.list_16 {
+    @apply py-6
+}
+.li_16 {
+    @apply py-2 text-xs
+    lg:text-lg lg:py-3
+}
+.li_16:first-child {
+    @apply font-bold text-lg
+    lg:text-2xl
+}
+.last_16 {
+    @apply col-start-2
+    lg:col-start-4
+}
+.contact_16 {
+    @apply text-[#29C170]
+}
+.applink16 {
+    @apply w-1/2 px-1 m-auto
+    lg:m-0
+}
